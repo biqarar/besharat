@@ -127,5 +127,7 @@ self::$social['telegram']['hidden']     = true;
 self::$config['billing_page'] = false;
 
 
-
+self::$config['site']['title']         = "Besharat";
+self::$config['site']['desc']          = "Learn quran and enjoy!";
+self::$config['site']['slogan']        = "Learn quran is easy";
 ?>

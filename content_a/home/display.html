@@ -6,7 +6,7 @@
   <div class="f">
 
     <div class="c6 s12">{{block('Bquiz')}}</div>
-    <div class="c6 s12">{{block('Bmagazine')}}</div>
+    <div class="c6 s12">{{block('Bcourse')}}</div>
 
 
   </div>
@@ -16,20 +16,20 @@
 
 {%block Bquiz%}
 <a class="dcard x2" href='{{url.here}}/quiz'>
- <div class="statistic red">
-  <div class="value mB10"><i class="sf-music"></i></div>
-  <div class="label">{%trans "Audio bank"%}</div>
+ <div class="statistic green">
+  <div class="value mB10"><i class="sf-server-accept"></i></div>
+  <div class="label">{%trans "Quiz"%}</div>
  </div>
 </a>
 {%endblock%}
 
 
 
-{%block Bmagazine%}
-<a class="dcard x2" href='{{url.kingdom}}/cp/posts?type=mag'>
- <div class="statistic red">
-  <div class="value mB10"><i class="sf-book"></i></div>
-  <div class="label">{%trans "Magazine"%}</div>
+{%block Bcourse%}
+<a class="dcard x2" href='{{url.kingdom}}/course'>
+ <div class="statistic green">
+  <div class="value mB10"><i class="sf-grid-alt"></i></div>
+  <div class="label">{%trans "Course"%}</div>
  </div>
 </a>
 {%endblock%}
