@@ -50,11 +50,11 @@ class view
 
 
 
-		$sortLink  = \dash\app\sort::make_sortLink(\lib\app\quiz::$sort_field, \dash\url::this());
-		$dataTable = \lib\app\quiz::list(\dash\request::get('q'), $args);
+		// $sortLink  = \dash\app\sort::make_sortLink(\lib\app\quiz::$sort_field, \dash\url::this());
+		// $dataTable = \lib\app\quiz::list(\dash\request::get('q'), $args);
 
-		\dash\data::sortLink($sortLink);
-		\dash\data::dataTable($dataTable);
+		// \dash\data::sortLink($sortLink);
+		// \dash\data::dataTable($dataTable);
 
 		$check_empty_datatable = $args;
 		unset($check_empty_datatable['sort']);
