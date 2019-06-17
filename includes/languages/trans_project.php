@@ -4,60 +4,52 @@ class twigTransTerms
  private function transtext()
  {
 
-	//--rojects/dashSample/public_html/static/siftal/fonts/siftal/icons-reference.html
+	//---------------------public_html/static/siftal/fonts/siftal/icons-reference.html
 
-	//-------------------rojects/dashSample/public_html/static/siftal/js/siftal.min.js
+	//-----------------------public_html/static/siftal/js/highcharts/highcharts.min.js
 
-	//----rojects/dashSample/public_html/static/siftal/js/highcharts/highcharts.min.js
+	//-----------------------------------public_html/static/siftal/js/highlight.min.js
 
-	//----------------rojects/dashSample/public_html/static/siftal/js/highlight.min.js
+	//--------------------------------------public_html/static/siftal/js/error_page.js
 
-	//-------------------rojects/dashSample/public_html/static/siftal/js/error_page.js
+	//-------------------------------------------------------content/home/display.html
+	echo T_("Enter");                                                                 // Line 19
 
-	//------------------------------------rojects/dashSample/content/home/display.html
-	echo T_("Home");                                                                  // Line 17
-	echo T_("Slogan");                                                                // Line 18
-	echo T_("About");                                                                 // Line 216
-	echo T_("Contact");                                                               // Line 20
-	echo T_("Check on Github");                                                       // Line 185
-	echo T_("Download Latest Version");                                               // Line 184
-	echo T_("Language List");                                                         // Line 26
-	echo T_("Find Out More");                                                         // Line 39
-	echo T_("Secure, Fast and Flexible");                                             // Line 61
-	echo T_("Our story in timeline");                                                 // Line 71
-	echo T_("2006-2010");                                                             // Line 83
-	echo T_("Our Friendship Beginnings");                                             // Line 84
-	echo T_("We find each other in Iran national skills competition that knowns as"); // Line 87
-	echo T_("Worldskills");                                                           // Line 87
-	echo T_("Javad Evazzadeh Kakroudi");                                              // Line 87
-	echo T_("Saman Soltani");                                                         // Line 87
-	echo T_("Hasan Salehi Hajiabadi");                                                // Line 87
-	echo T_("and");                                                                   // Line 87
-	echo T_("Omid Pilevar");                                                          // Line 87
-	echo T_("2013");                                                                  // Line 98
-	echo T_("Framework is Born");                                                     // Line 99
-	echo T_("Idea of create PHP framework was started");                              // Line 102
-	echo T_("Hasan selected to create framework basics.");                            // Line 102
-	echo T_("November 2014");                                                         // Line 113
-	echo T_("First Service");                                                         // Line 114
-	echo T_("First project is launching with this framework");                        // Line 117
-	echo T_("September 2015");                                                        // Line 128
-	echo T_("Ermile");                                                                // Line 217
-	echo T_("We can doing hard job!");                                                // Line 132
-	echo T_("We can register Ermile trademark:)");                                    // Line 132
-	echo T_("March 2017");                                                            // Line 143
-	echo T_("Sarshomar Launched");                                                    // Line 144
-	echo T_("Our first public, world class and enterprise project is released.");     // Line 147
-	echo T_("September 2017");                                                        // Line 158
-	echo T_("Rename to Dash");                                                        // Line 159
-	echo T_("We decide to combine Saloos and some other subprojects to Dash!");       // Line 162
-	echo T_("To be <br />continue...");                                               // Line 169
-	echo T_("Location");                                                              // Line 204
-	echo T_("Qom, IRAN");                                                             // Line 205
-	echo T_("+98 25 3650 5281");                                                      // Line 205
-	echo T_("Another Languages");                                                     // Line 208
-	echo T_(" is a free to use, open source PHP framework created by");               // Line 217
-	echo T_("Copyright");                                                             // Line 226
+	//-----------------------------------------------------------content_a/layout.html
+	echo T_("Manage");                                                                // Line 6
+
+	//-----------------------------------------------------content_a/home/display.html
+	echo T_("Quiz");                                                                  // Line 21
+	echo T_("Course");                                                                // Line 32
+
+	//------------------------------------------------------content_a/quiz/layout.html
+	echo T_("Qari");                                                                  // Line 78
+	echo T_("Please select one item");                                                // Line 56
+	echo T_("Avatar");                                                                // Line 24
+	echo T_("Read Type");                                                             // Line 33
+	echo T_("filetype");                                                              // Line 43
+	echo T_("Type");                                                                  // Line 79
+	echo T_("Country");                                                               // Line 82
+	echo T_("Choose country");                                                        // Line 71
+	echo T_("addr");                                                                  // Line 86
+	echo T_("quality");                                                               // Line 95
+	echo T_("Add");                                                                   // Line 103
+	echo T_("Save");                                                                  // Line 107
+
+	//------------------------------------------------content_a/quiz/home/display.html
+	echo T_("List");                                                                  // Line 13
+	echo T_("Check audio online");                                                    // Line 22
+	echo T_("Search");                                                                // Line 65
+	echo T_("Read type");                                                             // Line 80
+	echo T_("file type");                                                             // Line 81
+	echo T_("Quality");                                                               // Line 83
+	echo T_("Addr");                                                                  // Line 84
+	echo T_("Status");                                                                // Line 85
+	echo T_("Clear filters");                                                         // Line 122
+	echo T_("Result not found!");                                                     // Line 121
+	echo T_("Search with new keywords.");                                             // Line 121
+	echo T_("Hi!");                                                                   // Line 128
+	echo T_("Try to start with add new audio!");                                      // Line 128
 
  }
 }
